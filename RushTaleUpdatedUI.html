@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rush Tale - Retro Edition</title>
+  <style>
+    @font-face { font-family: 'Press Start 2P'; src: url(data:font/woff2;base64,d09GMgABAAAAADDgABAAAAAAo5QAADB/AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYcgzwGYACEbAiBYgmaFhEICoKJUIHrZAuDRAABNgIkA4Z0BCAFhEoHhF4MgTEbyJFVB2LEHeDgkiZSjEQIGweAQH3FQFVvB3IcbeUK+A9wihJYG6OnUAshhGYwU8sJisSmGdGEOziHGsMYsqVz0we/TuoFtPqyNKPSs/LvM7A+RxU8I/hz29u6bf1GpfgMuypbQre8/NnueIYU2tGu8t/PwLaRP8nJC8/De9afm7QdQBnYK2GwylrveWn/ASjxj7d7G/DGv8iSwOPpzHIv//91ZvdJXyacUYBky5JBMrHs/PG3HQAyBmEBQ9xUe3rPQp9yi3a7av1PW0owvQNqnua7upM2RBvSkRGkoGRzFcCizKirnjbA5n/TqkoSmFHg2/2YkDYfj+6lQ6YnR/z/X6Pd9/58sTHZv5Y2LxYaPojNOQzifyuRUIiNVPGQKIWMnc2HqKbl9OQNku7+HRIDKi7EDAAwpLbQVvnRG1Km9RPNmZBlUBu6DF1G4sxB6CTBVaJOVAlANO6XalL/2qGBBkDOyK6z0dkk1dSsziok10KhipXPIfpR8AnCaTaJJa369XQGzB8w8v9nqlVaVQAIUOPINS6yfEvt7vkgkT1nMv9yE10G/l9dxa5CN8SGEwCBOgKiHCjKYKQ11OqhuhtUE9I80j+uc1jjOLrzkZYacbzRGWczb7K7LJrJzqXJJUlyOsb0DbRPSUh27Zdfhec7NNGQVhEQW0REQc2k9n+ytWtu+C8tYPf5ySPPistc5oIc2a14jGl1uk42W8spJBZUUMrQFJIvt0cAW75+9YSbKKioCGCtjqUoJXedJiTtjhX9sMcTKb72GtYwmzGgYMQSKxC4zzZggQHKPx2omLBeq+8AGlDt/3KDr0Kt73T37N6Rkmb/zn3IQ6eFxNSY8rMJJt6zkUFqyWGPARAsEfxRcMWaYKANhbnECQTeUkGjNeFafxmRob3p4Qq2mBgxMrH9cAqNSbRBdiKGgruqB5uFymLGoWCPiZmgnkHrMYpfM5qxmGYqhLCmAlIap10RDRoRR2OoeeNKBAH8tlDCVFOBUTszU0NT4Sa38ifSmEF9KrMxgjJVaQFq063STlKOIl5WvrIFN1j8NCrFYQga6lMA9alUFRYBKK/bBFoN/TpXVEQbFP7qptAw4ArYiZdpJLMkpnHbr5xU7ir3VdFcNW/NXwsqszo1rPWBp54T+AYNsxm4t9dIkGVxstGborlonprvrtqtYv4E1He8ew/Gb9/fbr+Nvw2/bsLjefIXZeDjAY8rH9d4bP9o06OMP/1bjQCQAOq4DjKbr5xMJoHk/21A5R8W8B97OM15FrKSVczmIH+xlv9ZzJ8s4hhHOMo8zmHAFjsOOOGOB5544U8AGkGChYoVL0GiJMkyZMqSLddy5rCCGyzhAXnKlKuptgYaaqSxllppra12Ouihl9766Ke/CpWqVBtmKddYxgl28i+72Mdu9nOdi9znErr1nGQdl3nIVY4zlWnc4RQXmMtdpjDSBmYyg1nMxxIjJqxZYMUGe9xwxgVX/PDGB18cCREpTLhoEQ4RJV2KVGlyxOmrSL4CJQoVK1VDfXXUVU8LTTXTXC3tddFRJ910dpiuBhtgoEGG6GmoGN2tYTVb2MpmKv8xvvNdGWg+Oj3V2van6O01OtSnvxn9EQzkSUujRPiFUf4xXcEGccb3ArD0C6ETS3SdeuJZU6tMiMfIZzwlI/32wIP5geyrhCYuEEK6DQgiOkuyqcVjS8nGIfjtOJn5pMkM+0TvoEfXyGvKRth86rVo9fE8eHz93M+DUlhrqhUCCtdEOmQmWWDax0qqxEG+nYJj5I/THvHZ0VAai/IBrEEavwMmIQS1IisEIY77oxAsZRs9kBnpEFTEuqeiO7p0pxI6kCaWzBYtGodFmTkUgDyjkAC1n2zSJijn9NDPjEDW8oqsUho3yMwNH9fV9GTwEnQA+ZYnWWqKFo50OV+x6RbtBpLBiGvUnR67gNBdojQ7Js1JEyo5S7eNMZ/uFwe/GGajI3uFx0BysRvfncdu3H6InmtpGxCvaZOMT1qZLLGvR2ZE9LKecGg2DztMe5KaWnFj3Y6yIak71OX4xYwxNU0RmJAATOyRNn6fPPJa6Tq0tGXQLpI04sL9xSxDNmmCSkAsihnpHNddYBCkJ2mw1TJsg5G5eSv8YphnPc2/WkTkyWhokMjVIvbSti9s0Q1zXweW+ufRqHFowy9tfY+pRIvFh8fsgrDY2SQcFqTpgGHLdc+gZLgSeKDBzUiqDsrGui+zuI8sV/NHbfhyTst3AWUUG5FGJBanBgbEgME4YvosWZiFvN8CxPUuSRD9hoh+fwfE7aFNSKNtz7Du0KNfd/TpZBOHSJr+E40SQhi4PCkxl8UPlkrulmt2QdyyXLcL0URlEtnCZLKVMbKNKWQ7c5EdzE12Mg/ZxbzjWSPm35SuydK2F1SkKxslXaO5Tkk1/mhHK2nGH/+g3m0PrYKWnnQP3U01oEmCSSTJZKIzRlJMIQZzEZO5SZp5SIZ5G7ZBvV5J/vTI6AQd6YNLqLQFle2yb1UwzLeZb9FrigYYBFuzLum2BMbwjEoZgZSsr2uTuiq2ikLrI385TFSXDRSuW6NicAO3XfUvQ6PBaiRrFAHt9wn1bwDA8IHcLpXh9Ul+v9QMagxGvp8Q/JfIsm6qybFs9JkgiYNvb900RYJqoKIKoW+Powv54z4RxxP8vgqw6dd7bRrDtL6Ws2wZQl1F4hgzrtj96vSK9lEuCFDn1ugu2nlUMveRGcBRASfe4z75hv8qaaOa+ksyR7dfcB616RHIOtcVSj+SiX2polfj58dVJBEPhbJIhzzSHUuqqOjRfHkfVRKAzJR+uq10ekSfknFHZctGJBnxnaPsgMX45IqRqEivkJmaaWM0KSNyn9mm8nCw7JjDhllQTLJf6tZIspujh220H2FwsKLrsOCkLEPfHU77CrVotZIa14HKUoy5DHXOwinPFzFwfVsWU+Libu8OVhCFilcB36mLZd7fN+IHY6blPUeEX1cng0cdqlIYXrNcO+/9ppvq+KW5jNCcn/aGYas98KkDw3Y7ayu42Qpzq89pZKJiYZKIHFQXpaZYyem6r8bu3JZ+ytAUDzOWNYX6/Z9i4L6gDfiqj6/ltko4SkEHrGQ0jlbbHPZYTa8FLamlkZw83ZdZ3+hegz09GrdTtdae7D96wBRQd2xVLxMHDZt3cmgrqCNBhX7Wk8G8w2Ytj/FQ77QjpgGGRI8yIse2EehxRuTEIDCiJxmRU9sI9DSj08+YrwA2QM/GiJy7iUDPx4hceBFA9GKMyKWbCPRyjNQV1VSwqxCRa9sIdMKITAeBMZ0xIvNtBLpgpJf46IBdx5jcuIlAb8ZI3yJA6O0YkTs3EejdGJ28Z6CzkPo+OMZ+jT+ge9XD2ceI8slHBrGSxwmKPUkQeVpCVzp9Fu/S7+Jd/T3BG/3BupEfE0R+ShD5uQTnRn+JO/TXuEN/izv0d4uQ5wkiLxJEXpbQI/RVvEdfx3v0TbxH31qEvEsQeZ+gcz7YX71MurRu4dr0LFdyav3zefxzbosIYjbjAMATADkK8hOcKuDyHTABEahzYJ5TVPg/YDlGUaFMc0K05lhDImGLnquSqEpuky1LuBs5s6oyagy8jIokJoIKKAV6f/Vx5bQfe3fRrnUDxx0EIHWXvJJGpqCaUGEqs0F0cGip9cQdvWKqA9RdCYSGa0iDqM+jNth2sGl40HhKpvI9s3rvafbkL8thm2nbycxCzh/cMTk9/+h7m6ZZO/8YEcQQqGfavcz2/unjYAf9k8G2syiLyw8e/DczsH0w2geCGALknv0gA6tKGaDYr+vw7Whp7p7nA2Rj/kD/kKPfMyxsyI2W3pnbYNOTFFDfDjaU8O1NB/LvPW0a8smTbT9NNk19P6U0eKV/MNXTmBOHROTsiYUgM/Swe4tMZJK/ykyWG6amfU9SAGgRIQhFTv734EnGonHkJHm7fhh66xHBAqCC6j3rTZ094JL4cP5kCRECFkyGn+F50/rnZYmCS9DZBYOFQJgzoUWnw1cnjiVvuAZrDNqZqii2Oi5DOQtyTV8G/UgW8BKWvqoqJn38jsH5ibcGqzFlOJ4TPSeu4HwmjXWDDU58OyQdWuOmtZzueF6kSTUPIFGjoIzocsCxwn2gzmucT71M85uG+BVw3AyEuppHVtJqT/yvwbfJDiMKiQbDZw/B8rar2G4lybDuddDA0U7OtwrnO6EmIhrWGlK7+3CWcBNSGr0rayU6NxgxRIXsehw3KNUzIC2DTBIRFrq1QRS9lhGrEToT1YU5VAsLa6/FQuftxLwJK0o/1wVYgAvQovEdaRtE6IvoBOQwOrUkMkDGNEveQVThTJG0s81xU5GgvxQjCSY8pfwGtuj7B5yV5cA5Vz0mxBDmoM3si79gKmXaZwZ6CaTaOlITCgLcyvvoAMNUTqgTfHBKptQrYG6219OCQ9YY2Np9xm/g5FwUS2hWIVI80s4CA9rRNjvEwt5L53pggCd6GRfnrAQ9TcfEDl8Lj+06arGFErZhPWTYvyqhr47FbRIOxt06JEY0RG1hUWWumhX77cEFDUIrG0ru4JnCtcFiTrr2vsDFHcvWPrBPiJKEhqcdCFDFvaMNi6ayUWXAo78nRsulVANJDyfEJIGullDYOjPG3ijsqI5o/rCc4vmC1zWL0b+HHOfmT1r6Vr8zj6oWp9znvqFoBkO0mFyDIemR3AJUwbfgzVmY9JKCZwm1NrLLsADjoFPmJZWoCEHibb8iTkZz4yWDd6bCG8DAM6it/GTVCdoFoAoWaEcsS4GcNMCuWdaeC9HObBLDKupuwiaRnudkM+p1/KhVB6lG1YLzNTehfohjZsC1Pko52yZqf6aHeRNw8S4KSbLGBbeclZhQxFyLSLpCARYExZ25lDU63AFjmn/KWopYMsnTwBy4A/PKlZi7w0owxNjSNslLrb1GWOv2sy1KrsnUHhWvDC9RUO1KRZjIKcd4ZHdvZEh8ZYn4AmGsMpBKEosBsXayurhaTLpSWEYjzYUiFvJhuMqO57EAb6zpqPMm0oZzLeEIqBsGZrW/8ECLTvtAVocDiVgi0z5a8hIsiC+DzmlzKgQkOIQSvMbcdfzGuEd3z3FF5T38ahGAAvM1s/w/Lx9jo6i1TiyK7MPw0sICwKiosWGGa3bnoMjIWnmGQ13O4TZ1ysDyuRQb4ZKBIwLdT1q7d9rBT/Ya7IUZaZsKVVHvIKoVOk6ouT0IodQV1bpiZ4kzHJpWrOjBLdgit3eI0zlE7rB8+ESxyxxTvoycsym4Bbd1357UpCSVSVW5y198yhad+/rFH2NWYPwNGFba7eDVYZ2Be7MyRu0F3FN+S9fQsnOpLPbEbIxv2VciCR7g0g8QDofzSlw9cfTorAuf9cmyHguuA6sKPQYtiaTllpOtAgCXkuQ18ECXzTBwm+hCL4wYDO0XTCct22/k4BXb8EDHHX5aHuOBhzx4H8wCjeatJvICA8oufImp5Qv7nmDgC7Mg87GV+XSA8DeaFv8A5+3A7oJaBgYKxA5Af7yVb2htSItS8biWZE9sxch9mK8yaiF07+IW5bsMjN5T3dgJlwjCjXCIeuudNtQ6aefQFXjkuBgIEsKa2wLH12RdnWspBrgL6DrypG/VoS3ATlca8CwkT/FYQ6/9RYUQ023PefxUnS2uwfXlHwKiFRL+tMsm+jcacqTxmuf8DnPOb/ZFnQYS5wNtcIpTWATNT7ay4fLk1Gsfa2f8+gWcdBGlle5AEhRIbkojSZCkSRAgkuRDs66QHB369a8M4UOC8gn264/6kuh4mF83ulYokuJ8jsQc4JW/bDX478uuw8a+Z1oBNeSH+nCSkoiIKLweD45LzfxpgKZRUt1LcbeIr7C0FKLteodgB486NNDJgtI5PcVTpsq3qyaBlhD79vf5uqtYzF7wEFV/LgKN2eyCgwqtH+QLlkJTMmVcZZ/RYVASesV6RO9dUNlloFfOeXQZSlZK55S595WYfXrYBVgyeSSIWgnxjPdYBEDUl51FUCa27BKkOaEtg5lRBzMTyDuCmetRxtTOWTlup8PInC6Ngp6QIs9EUyNXjidK0aZbXkd/RBS15E70ae6S1s4mmN51jqGUC40U/NmJPGC6uTjEcA+SMbD/YRkpSp01MteqZ/WAYYMhco62LJyqDuDRflmsIgLtjmxXT+REi03WOSkFhdeAs5YtkHR9GQuOFylgKPHiwedqrtBNThiAFwVl264Yq6Hrg24EKpfbw4bZymSDYjqx3/S1ECQWhhwMXUs4yROlWJZ3kRym8LYtbc1TmWDjHI9mea/twl5tajYX7kUCthBXfEEqkQfFfNdARKqGi34IkMcbFvvBcPo4C2MahUR97HIrglhybIR53j6mXLIG4xIkss+uL0m0X0v+K9/pWjUA5l6kVVa9lCqRR+21Plkg9QfBQufoz6kB4vB1V8rWiZdjMfbIx7zC+QrZs29CfBKgwr0qCkF2+DHCiqEm8jWjsQ4h4sWLiO8t35o3euNDw8mHzGMWGIHcEpn91/UY2z/HjKumpkOUF6cJCF4p6jDuwhWV2r9lIU2KQ1Fyh6+S8Ib40IBwPTdnVua/px3EAYbGJp9d+M7Eq1sb+1slyOh+JjGHcC8ug8mJjz1SEwS6ptww60SVZpTVFA5hMRO6slqxxiti96pwPykeEAHNma2/A5XNEEtiv63Em99ZPKYQ0pyjC/hJ9soROx3GA4pgc9kAIFycCtIIenoNGzXasryp8NSNfWltUrzuLnv+yZAzms/HZshG701+gfOF6I9FO+xuphQXrZ5vBOISuBFe0YOgUT5sUTvjInolf0uyobCfZfXWqndEjTyouQYuO8E1aSufPGyqjN+VZZBByeB5nu58UDmHyiURAXSuraNs2OdyDgjEczOS0tpJFoU6KgQbvnKSF40xXVgPTuq+eF+uKUmbuf5st4jxfAgjFyawnrSOkZPQQncfCZHzrJYtwCsfiUhrf6bSDioX2pSt/pF1itrnnqFo1FQhEu4Hll4vrr1uRfEqiPY9J/lWBJepKi5DLEODCGuER5j89YR1EEfbHB14u8euFJfOurqrdO/vPwlDM0OFPLzVOuY1KHwxprHv7RGlGRydVB6e6mm5F01IIFAoocqNfuVaf0GEUG1PgJUg+/qsAZ+zF5jVO4a93qB6KZmT1zS2/f2qE1yZuiL8/t/J27Wxw0qXEvEdQezDlfLV/gWPKWAiK6NPfOVOoiGS8y4YoXKFhJDamzE6O6wbYOPIjf76W2joB+/+EUDX7+hjc5dno1rYwV31mqH30N+qj67yHDeAurLnueH88Hxu2XFbN2JmJDHBrcCjRkjaZvia3EFn+CD48twoHEhCSluPyvtR1+qI9HYfgN5mzAXvaO/QZN8NwMI9u9NlFS1/XLQ2RpR8S3H2eGcZz7KH7c1poisHtG6W/Js7Jgt3jIPPopYY43gzQVOLtflCHF268BiXfyBaC96n6xit1//5pLUoVmSve/Njrk1XgOwqHKRwkNRuPkdHnAmqYWN2BmEqpLXCW0CAyNRopRi9AIoZlXRuCRZHv+plLnmLLpGZeKUzwUWXMcj0Uxov6vqwkVsiMqpkqfTIMT50quW1XANteM1Z5ZCT9U1u8TnFPtjSzyMebCycKODBaPQ3wZX/1JkWuo8Kh9l4/9pJMAx5E8l9HFpdyYadxhB1BvTXDqemXjOZvPT6anlzfo6aPisrzTgXjexDR4EkR5SL8SyLbo9z8cr/pjGCxqmxNECE65/nTuMF1X2l4SpIhJUrknN533dEqCW+83vDIW6JKvi0E1g1scyl8GfCnhf6yksy+/DbdlPPhKga+dZygmKEx1V2G8ElX+KdHD0h26sddscLQjRFNL4eHXzci3tY/JJr7Vn5B/bbHeVRVLbxUKbGWTZ3+QvRwQ1zz/vwg3vP3h/aXr32DaR1J842ayq+Hluoy1pZbZcUvXaTW2Kh+YRxz1Fjl3d98IiR09X0v5/28xui+H9UvpLid83/jr/H/39nS0qQv1uH/s9/Pj+LMhQFdAwKonxoJMtpmMEb5Zc1AVzXWWx2kU+6y9GhoDL/YFgVbjC9n1sF/yDBFFas55taL5935hE7ndSbpUOjp9yHC8KrYEBAKejGNq351nC/rtfFZrwzmC/8pLtHpuc9tQnT+7nb9V9MqOqzdph39Ky78+lcvrz7XTMM6LSCjhsrTituCpKIm/BwIsoSw9F14/qyep3aZrfrWgHKHltcysU+6R6R+5idaJ1w4X4myffJQ+vBS/EM61X2viC9n0lbutpxoevSP2xEaTFudhIibO8AL6tzSZtMZ1yk2nG9l86hxfqEtdIbYJe/cCG3KjCenzNfiP+l8iHU1ZNBIOf78tj98MJBrn6wq1uyP8uE8IHkFgO3ZuvdfEje3buToaWDjgSv1MFx2Eb2lltXlY3JeJFIzdi8APgeGex+0RyNZHq9UJ8A5a0COK7DPcSirXysYy9TO+n0oqvox/PkjG7jdM8fINzRGKTk28Qd/y431tU2Ydf1MVkEuwRwwZPufQQ/FqbrDc7fz8zPL+DHFGeXP/vyswZ9eSc84j75+ONvQyrosCD1g8NCbZjIKfJgIpGUSmuLZLbq0mgI1Qmrxw0kq4nqz2Lab5gPAU7EQ6JIKoNBs+hQjs1CaelsW0c6FiEC1UBFfX7stXz6J340I5kSSxqD0ghRQEqohRzUSnJ9yBl9D9H7JT4QfI7ZbzvS9RHyxf3izoTWMTISlFRSuqoX8qz+DlrQfy6FVWVOXeeLAiLnqff5tXnux/E17kIVP46GJi75UKLJD0AT6TDKSIgxRvZO2u5Du6gWgTplntATcZ2AExM8orxjwzmmaI37GpZyOSbUCUaYJZJIKq4667kwZuM4TPoeQmzUgFRdQif02Eqa0NjPnTJPQcaQrltzm0KUZYCGPe1qW+Ea2cekDy9puOcNDWqiJu9LUfatD64Kk87eRZlwqNsbZJ+QTpAJvuBeNWOypipHf8WVSHhOzo5WbN0ZuJ0sewCtoqu1e1MJE0KvPvcotYPDQicZ0wH0Ehs3Ru9Bvs8GKNkvWWYx6QJ2N5KV2amNFogHsDnIuNC2DDc55IyM6qUQjRcVlFoqn1TD+1LY0jWLkP0wUSgUEgHBMmHy5D461z1ArRf/pJsTqkviCT0lxwScMmmTmIVKrW0qfKqutASLXISIb8hNGSJ7MtRiKPEe4yU3LyxAa0ZEdzAt3KNtupvKLMfQvACAmrC7XJ/46nSNj1yFJ8DCWSwQV1a77BfTfQEMm2m2Hhbzg8MnXcJuRkditpUFAHorAKyMVSirH3c/t12tqVPuE6O3QI9XOIm3gl6oj0WdSauyuBvPpGbUwifzXd9Bg2aPe2kTUNa+W3wJTUVP+DsuvLldRnowyAGD7dfylGPFRkF1PDLXBnHlLlQCqaSSvSHz69UOKFNySqODt5Tn+/CAAgViRgfIQlmLUJs1Ivd+esCQYBkOeOoOEIZYvqbOsV2vJhFXq7y6e5E4nyzs9nXT4uyO+zmo0JtKSIQ5rEW4X6bSV00zmyyVikJK9LgzU+JqbFrOmJG2irALK9a7CFMAtXsETxOg3OZqLmgsvEMJfWxeOE8FSoQgHLhYAy2Sc53F5oDvAcMczjH9m/LTgWXSMB3L2tqtWbXab0bZcSPRcKs3u5oXpzpqu1pkhoW+2mzVB0dRtDCMGmDLXVyxV+rR+kiCWlgHT9w6SrF8LIE74vuU+Qfwyeei+NmnY2pyS/L046knOLnzUaFC6IQxSUm2jF/T8G2gJe/n6LGHibi4J92N5r1L7BNQJojju8YjCuVgf4YcGHCp8aCr4+J2YfETFFZVxeJnNiwgalLIZKL7AlguzDTN/4Z4C3AmHxJqSQe6Dbng7osfMguBAmMlq/LxlNYrsVTYzEHOvO3NMuuU8Rvw9KkofvI8NYfR0TGn+5m/+thMYgqeME8qh1RPH8NjpTngUiy0dlQ6vgc6FjSnT6bhkiashd5gfD+3rMP1OMNaIF9c66xWy28aw1p8QiakhgyLUN9AI7CI4qJEs7XavvlDB3cryZpiAoMMOrxs5Zm4TI0fK1MuvieHgV143KrK3T2t8kwrB5RawIWqwhM/IKAZi0NGw4NS9jS40kRcdfO2Ng4baM9tncmKLr74wqs4DzRwxc5e+aPfR4PEWfq3u7GMKtURtdbKs6D9GHJeyMB0FDQIVTEqzLLFEj4SVjf8qa1aH40RJoS3NFFttEZOAmdBOU5bNh5Ofi43PgQBgaLHOuU84WNA6+LeNFZKq5Ko61ax/w5fWZaRfvsJ0PfYm0UQUDQSahinCT1caZmAwb00zNtQ5TU0RRAnHNkipQnlyrhv1YHVid9+RAKf8PH7GRHIOVos8/52gUVSO0R+pyKQKwT5UCe2uUK6Wrs3YWkCTGuxc2BQLpi22fn5PiRVNB1KWJwnNAvnG5ok0w0UoXKDlAgcXFWjwAEWWpQclzlCdXUy4aMoiAnhefLMDYSw2ImayMRZ51AfZ+KhlsqR2hIQhZ0Mh7uk/1qLSJbCJgJVrQ4OabpqazJFNBEt0x3joe6G43BRaEEk33MVyXfSRw2SJxfFF/D6UnS+xtASDp/V4owxHTApyA+brJr3IDlfTHuR1McktExIp4FtggADw5af1MLw5CVNJJqlNgS0mo5tXZWaNk9pVduCK1J4fo/yYw5hJ0/Oxuzt+SYrLPQNZp2YeCCpEnBr4MEAK/WMQWBN1/5IzUmZB7LEFtaLu2lfEOZPOppVbTctiPW+mU7oHMnxdjdFQTPv0RkLssZWungLw1UKnnITmD6XukcUgx5SU7m8SA9mBF5IhqBClZXD1mxHgxsl4vQOpQ54A0GUy8OtKJROa3e+Hn6YNgPkrcBFwvfbq6vH7TZQlQg2dLwSwkqbwijZgBKLhUgkt3VxBX+Fh+k+HaO8WtRNawR4ZuR3cfqPMEx33H1jt1VYuE0PikV0eb8OFiasgqGHcgNeLIV99sV369uN3q8zr5V2QBdydmCG2xwe0ztnd1t1FBSu7wetLnbuLpyoM2WfaP/tbLA1fl+TE0ySyejbVsX5xzEYT3dHXcwukfDq/anxUwmOElwmFhJqes9os+IML7u4m0S+rTzsceYVC1lrfrf0uxc5LJQEuX4MRomt6NZh6y42WWEh2Z1dKrMjeU/wCldWZkskh1xLyijN/1jifQeEVMWc+A07gMXUZSUQuT14LfKcT1ajzWlXJFtAtr8Two2TEgciYzzskL+oKOMSXYfJSiQVJraPSDUoer2QtwZGUjQJrmpOozW+4E+VzrlSwVH2ONJKM8wcSe2PMBrV2KYQcW9qmcd2YP2bj9xKVoSWRjVvg7dFsew5H1hrDGhxpIJ6tWPnz0ue84HW5Xmf+XyWxQTs6atYB68OJrUnllE8HUAkikFRnEsIQnCitYJrgcWaRzlE6mw0oVeRyoTQ2Fjyxp6/RJq/h17zjWOrYTy2cBOIHr1VCqw0MxmRMSRXIAYhDhHxlQuC5SVSaFDLzlXA5srWeRkygI6JmTeF+5PTIxlQgO4cx2JBnNrOa2KWTBDiuZwlQPu/n9c/nAf/bTQVRfbDqEjlMDvVEqtd1Hl3PB6opLtNoU4eE3pSCyaATXvKlwfg4Vks/fQY3P3vafmzMceAoqCxUge8APpGQIiUtpAB3th1T16/SwpJLAPldDO021c47xspyJgIGJBfQhdfLENADCq4anHU6N6FjWW15nrkOByMLEvDEuSJNi5keB7b5ClBrAdvPP1JTuyDK5Aqhk2/aWZ6QxdizayeMH3E0g26h1jDR2S1KeXboq7pNYwbsSCF334alHU3HG6nv9LsWtZ3ozklpbsq3fGEiMpeAtXax16az2uT9yI2pMmvX7vo4Z9CBgv39rp31+O8WZxR5PExwlQQdZ1WEuA8nR12zu2+jZfkTtpE4meYmOsPH9iJFtgSOg143E0/NKHZfwQXdJiDklJeWUnhnKK9zUeJvAYcs4eDoHcy4Ro+n6XOsVCYSq7TNUkRJhr6I/PzGhbZdiWNwA88qAvZC+q2qfXVcxsvOtybxL14fdjjOb/tv19INwDQRw40+KdFuPUdfP/6HyCEG3SeJBGpOUW7CFzMlvQ2XEoWkw2d68dyXxD1kpdKWNf7Biw4O6tPFLF/yEyW7DfKtIu//ps+9UfK41y70YrpBthfP7lPI1rUwZyM+yu6e3e/xtNQoPpXL+FWWw5C9CNPsIqQgBpRv6wU3KSmO5+vQcciFaj0hjom4LSR7cFJpWQFg0Q0BcapoGkVtieQPL7JxEETVKZ6g9TWcLjYN/BmSCicyqCo4PrO1Tfl/hBGN2Xa47tL9wGSva1oE3CoIU0W78HfXddIlsrRUUhVed+UBFtPnKc/7FZlnAqkstY2ofN2/viKIMzoYAiSGBVLBDe8G2Wq0Rpyh/RXpYY9CbIJ6N75502w9rfYQBH8DWQCU6bYOJOHlSpbGyLt+7FTNWWbCFL7kKie6lA4jVQUsUpYIhsLwI1JZ63oBuGTDUWO6+kFFRaFYlmwxQQZ9MFkb6INV5sy02kRWMgTPkKmfIPwSjNz8boBFmre1pcRzALrt65avNa03n1Hj/Fr54niM7rwDDpQ408IN1iovGGCPXgUFE7qw6r9WCiYD+VQ6bFTnhA+5dM15A6q0rrBflO/PvErGqqc5UGJlI/P5HBpDWq625vpJsH7T4xBNub1D/6aAGGu1R/bnRnz71duEwLsJxruLK9TZsG2NErkkoZD7RZQn5AdpWRWHqJ2pDqIo58LmS3M+2PYNH2Kz/SWixAoWBRZCR8c5Fl/hoK4VHqByiHDoabYVDF30qDtmzZP7twPQ799TOOpv9kqQz88mD2NAS6VinHWtnLZzMzMzM2x+Yj2a/bCCw/QrOplnQw8amCddb+O0f4ymnCU+o6Us0UqOt6vaeqp7KoSovuMU4bNj/TOPrD4lDvG8sgU5xIQ/3uNPye2+ur2QukhCkmDJMmmAVssN6MtGaXNsfiVhR6GPIg/QYu37Mk3QztUvXXvBqmmWD19K8/pFmae4z68Neq1UrDMPdhNBF4hj3uB6XJiELkY2wJQpM2QGvbMq/h22Ij11+cLg2e+5AAiwF58bDofZv14qF8dbkTjxc9I7z0HeJXRtfJEY5MnqXz5s9+76uQ8CXvC88TFCuu7rVQhWsfRNr0mEG3wGIsJ2MvDdB98FfMZFJWUZUAoLgqjDAHyR2viDfd1oRgje7fGMW9wtDuAHnZslNRhLRYvdky/rZ5WvdTsrQUsMlmffCh+k/HFb+LCoZJiGWiTitLq5piEzRdyplalnObNyFA1hQNPyj/Gn4MIJlzdcm4bEHUwtGHSfMIdFH1qslz4MFgJ1dlfEwPPHQHl4qIGqeChc5SluSRiVQ3ilL6eKMrCQwaUChl0J5AtgzbdElU8VHl4t7Gp482doPJ8k/GhLEVXhMdko1a2WfyxbO7dBYI7mBCMyFvM4Li4/jCcXUD1uWHgEsqXpSk/3X5VWSiAQ0yEBklw6rmZNcVPXUNL9AtEb41YqSqfv+CwS+mwpyplJnLBOcEu/w4aW9QFLRIIcFMiwXTUh+7QWlpDlG1RCc3yflAnsJ/rXAej6XUXRy7YNR+o5SZyTCl6JTPFQiUFnAKBXL7Wwf5OnL6JAkOi7DC8nz9K+ETfrrcCcLez4eFEKUo6BnclEfV3glKkxjEw+da9TfJkDMxkbUPSoNyTyhV1QwYXo/TYgeDyd56aPV5YkrbKwO8tUAldyYV+7kjozlkhgYChGxQuUKpNIwzhN6VCgmzO5Nl7LIg+1MRS7v1g4qufy2chyj2rXK7x02Di/ouyrnHEOWauFcCSoovyWgpgm74sflHTYOJd4PXG6VRZTAglFgDkChRXACyGuWnJa6oDHGS/5WI2L6NQkMknpP5QV151YbLFhz0CX0Ce9yj0BJIL9SjiJ2Z/Um/qK0pg1QXylItO83MIjH4b74yYyslFnyMCsPwsKAS1BpF3JDxIn0NT7RGRK5oYu3kJOSMsMJY2+O+7VLjfprC3t49SO5uK6ewz8I83uBL74Wi776Um8Z+FLqLvqwGb/qxlbKarnFLWfiKGwaKVWuUB8oLcq0me7e78OvFHr/68EnsTevAK8YE61krjZUUE6eB+i0eZ1e1oUIbxvmvGut6jjI3OQKgst9OdKnaCuOdIB001DHzBjtUMqO3relgrOX9N5pivxGWUrGb6hcZMG/S7afqtZHD7sT4r83vLfmY+e6TMPM5enM67L+Gh06pXxhs2v0TuEjna4KfKNrZ0ivyETh7PlwjyQ/IO9kGdXdTIM7mLb2Hqv9hOJfYUJtiOXXxKWvdhxXTtuPuWfTbbWR6i8+bCC4xLmKBm4jX8S80mihIACo9hOsu+YJvazUJsxeMHD4WJt6fuhFaPUQKGJlMESM6mgBXhOnXAAhR6PzQLBuWSf0liomdH6ziLc3At3qBbZvcOQueueNywPJjTTQdnWbGuBP1kcSy84M44EsZuwA9Fq/fFWrVKcK7doLdhox+P8QEuyCqwKHFRAmG+5wecXAEuBN9brhCtLb2q3BzZ+3fdWUCrEnPmOjL62viFfc0XoPgYMZD3R+vD+PY+iVH2flbY9VJEX+Q/ri8fFp38bT02V8VMYRAnA9OJ/pbhrv+Hn55E9/DdDfPzwAv9hIUEn6voovHjSvHhN6krtr8Z2ui3LOAWgzUabzIJKdW6QL4WDBK6wm225h0brcVYf2t/YdonATC7uFuj/wAtEN0Op5h0wQ5XiyTqWLySox+/ReXLa45eDI5TDJ4wO/3O3AjaCO98nWUm0lJwaqWu0JLjHx0XPQDdSOcmWHzL0ouvz88yeGqBSd8BCNW6w5AZwwHm8OnJY4DWenui51gBjg5ivWMFmVNIzUXHn7Adx9HxMWY+uMPuACur9PQoAQRkKejNPw7u5r5Wd1lOZFjB+v89M1JJ2XNO6/+HxPp4fzaYgQ2qCxTTnzp1Ps/OLhwZSLRz4lbWZdCJXxhAto3efl05Bc9I/OJT591d+ZP2Nr6/UlnWI9mXt6/jn3/uquf94sPZzTeBkZwP1I3dR3GR7zPG3wmObXPKf5/llYMrnb/+AgkiWWV9nMmq2cNIK4vDtwN/N/feRgvdST59fuxOnUNxV0ztK+nJwNi9JKupjSWm3Y28kpbaCEiZN79dQBUYzYfA131g/Bs0yc3FgONF/YJRqVL3CZ/XlCYGMB8kQWQxhzY/RrsUyAyMPMYhOzZQWH2GTzWDhhIzKnVCWgMKKyIV+GP6yHSkzEn90/paqkAvUvluSv1fr9tlHPs96N2W94kRhbDZekLx4LYOhoORBLL/JUhPeh5V9XUyk710b617RJSrVl/L87Je9Xkk49oRqZwykyqo8xpePU2ugJuVQS9oYgAATw6G9M8Vo455OlKv4B8D0cn6H08arn/rz5AQ3Y/hoNBioEwEClXQgRMSv2HyujMz5/67vUA1guvqrO8TzfdDTVhNX7P4OuMq5ffHPsrR75Xu+cNa6bvDt+76azJ2B6GLZL63wmSzDey9ZNGRqeJXcSGPJSXd8OHf+z1ELy+4C++I5Of6um0+lklwg8IYMtISxQKNDQNGC33UQQwJJuVMRgBe6KNTQk+PJ6SMGex0MqeZYOGYhRNWTEmzZDJiKk2PZ0DHqoEK8ZIEv86YN1NkhP3a7Ig3EG232eP/v9DdJdvPrK1NHAIF0NNlhjFToapEKSBmI10lV3lfq0NpvpapCsa/XXj0ayOAm1tiKqRVrLd6G1c/9Vk61YS42UysZiguHVtxbrb4ChZqh1116Odf4ZKWaOJQbuGlsSZWvvrpavORblQZdQ9zAic5QidtdYuhiowzDi0q53BAFyrQqQYGtV6cnOD6MHGtKtyswuNshhUNOvpqC+2yw/KnaDzoIx5hx5Y+d3xBERBQSXEGU7RyQY628hsQoXpItwzInR1mrOcI1KUaDHOc4GLXCJWnPioBrO78YNf5grdXWMOm9hMslcfv3K9dBmuc4Mebn7Sy8wcL8hVoufHuti9uNnXYkp1bS33nBoGmO/3z0A11VJbHbeoUKVapbrqqR8DDTQ0RCNDDTfCMEvQbaGx1zTRVDNTaK6FkUYzhlEfCfPU2njJXto6zBEWsBAXXHH7EBn+ES//p4tRTGLBfj7yic/YyXeMSfjhwDoMLMOEE0GWYsSaP84UaaeDPAVssGUbW3EUS9awloMc4gTb2cFOdnFcrIznABZibQJ/iw32vGU3GoEC+IOOlostlmIXe4JZmcxEpjGV6YyjvacUxkEcxYkZPOQ2Myl2lwfo/Y8d3VleHjt8+Or92N3bO0w+u392+bK7Qyeuxq/d8rjrXR77+73h6eTVq1dudE6nLzN9/PbVpw+vp+EDiOZO/2+VzD36rxNpTqf5h/c5cj3wVdcZOvQL/570hejrBdJf6rD56wL34Pvd7XpuDDnouo9mns/0ZuzMOS/zNHyZM9eJifZEUt6bf/B/y/Poc/9zF8DgBQkX8K2G5OoyhiU1/P6EJ/9yXiULZp7yx/McxNbKfNt3tcPlET6aSZ4DU+WpHW4WyP2i/9+s2JdNyXPmV2UxgWEXAAA=) format('woff2'); }
+    html, body {
+      margin: 0;
+      height: 100%;
+      background: #0b0d14;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Press Start 2P', monospace;
+    }
+    #game-wrap {
+      position: relative;
+      height: 100%;
+      max-height: 100vh;
+      aspect-ratio: 16 / 9;
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+    }
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-wrap">
+    <canvas id="game" width="960" height="540"></canvas>
+  </div>
+  <script>
+// Rush Tale - Upgraded Retro Edition
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const W = canvas.width, H = canvas.height;
+
+const PIXEL_FONT = "'Press Start 2P', 'Courier New', monospace";
+
+// ---- Retro Web Audio Synthesizer (Zero external files) ----
+const AudioCtx = window.AudioContext || window.webkitAudioContext;
+let audioCtx = null;
+let muted = false;
+
+function playTone(freq, endFreq, duration, type = 'square', vol = 0.12) {
+  if (muted) return;
+  try {
+    if (!audioCtx) audioCtx = new AudioCtx();
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+    if (endFreq) osc.frequency.exponentialRampToValueAtTime(endFreq, audioCtx.currentTime + duration);
+    gain.gain.setValueAtTime(vol, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.start();
+    osc.stop(audioCtx.currentTime + duration);
+  } catch (e) {}
+}
+
+const sfx = {
+  jump:   () => playTone(180, 480, 0.14, 'square', 0.10),
+  djump:  () => playTone(320, 720, 0.14, 'square', 0.10),
+  coin:   () => { playTone(987, 987, 0.06, 'square', 0.09); setTimeout(() => playTone(1318, 1318, 0.14, 'square', 0.09), 60); },
+  hurt:   () => playTone(220, 55, 0.25, 'sawtooth', 0.14),
+  spring: () => playTone(240, 880, 0.22, 'triangle', 0.15),
+  win:    () => {
+    [523, 659, 783, 1046].forEach((f, idx) => setTimeout(() => playTone(f, f, 0.12, 'square', 0.10), idx * 90));
+  },
+  click:  () => playTone(520, 660, 0.06, 'square', 0.08)
+};
+
+// ---- Characters ----
+const CHARACTERS = [
+  {
+    name: 'Baller',
+    title: 'All-Rounder',
+    sprite: 'baller',
+    shirt: '#e02020',
+    skin: '#f5e61b',
+    skinDark: '#d4c600',
+    pants: '#1d2433',
+    pantsDark: '#141a28',
+    accent: '#ff4d4d',
+    w: 20, h: 44,
+    speed: 390,
+    jump: 660,
+    doubleJump: false,
+    gravityScale: 1.0,
+    stats: { SPD: 3, JMP: 3, AIR: 3 }
+  },
+  {
+    name: 'Blaze',
+    title: 'Speedster',
+    sprite: 'blaze',
+    shirt: '#ff7b00',
+    skin: '#ffe0bd',
+    skinDark: '#e0b88f',
+    pants: '#183a6e',
+    pantsDark: '#0f2547',
+    accent: '#ffaa00',
+    w: 20, h: 44,
+    speed: 510,
+    jump: 620,
+    doubleJump: false,
+    gravityScale: 1.0,
+    stats: { SPD: 5, JMP: 3, AIR: 4 }
+  },
+  {
+    name: 'Aero',
+    title: 'Sky Hopper',
+    sprite: 'aero',
+    shirt: '#00b4d8',
+    skin: '#f8edeb',
+    skinDark: '#d8c3bf',
+    pants: '#2b2d42',
+    pantsDark: '#1a1b29',
+    accent: '#90e0ef',
+    w: 20, h: 44,
+    speed: 375,
+    jump: 640,
+    doubleJump: true,
+    gravityScale: 0.88,
+    stats: { SPD: 3, JMP: 5, AIR: 5 }
+  },
+  {
+    name: 'Tank',
+    title: 'Heavy Iron',
+    sprite: 'tank',
+    shirt: '#38b000',
+    skin: '#e9c46a',
+    skinDark: '#c49f45',
+    pants: '#212529',
+    pantsDark: '#121417',
+    accent: '#70e000',
+    w: 24, h: 46,
+    speed: 330,
+    jump: 740,
+    doubleJump: false,
+    gravityScale: 1.15,
+    stats: { SPD: 2, JMP: 4, AIR: 2 }
+  }
+];
+
+// ---- Themes for Levels ----
+const THEMES = {
+  day: {
+    skyTop: '#4aa8ff', skyBot: '#b8e4ff',
+    hill1: '#68b6ef', hill2: '#4898d8',
+    grass: '#58b947', grassDark: '#3f8f35', grassLight: '#7fd86a',
+    dirt: '#8a5a34', dirtDark: '#6f4527',
+    clouds: true, stars: false
+  },
+  sunset: {
+    skyTop: '#5e2b7a', skyBot: '#ff8c42',
+    hill1: '#8c3b6b', hill2: '#5c2349',
+    grass: '#e07a2e', grassDark: '#b35617', grassLight: '#ff9f4d',
+    dirt: '#5c3324', dirtDark: '#422217',
+    clouds: true, stars: false
+  },
+  night: {
+    skyTop: '#0d1326', skyBot: '#1f2e54',
+    hill1: '#182442', hill2: '#10182e',
+    grass: '#2ec4b6', grassDark: '#1d8a80', grassLight: '#6fffe9',
+    dirt: '#2b2d42', dirtDark: '#1b1d2b',
+    clouds: false, stars: true
+  },
+  volcano: {
+    skyTop: '#2b0909', skyBot: '#801b1b',
+    hill1: '#4d1111', hill2: '#330a0a',
+    grass: '#ff3b30', grassDark: '#b81d13', grassLight: '#ff7b73',
+    dirt: '#2e2929', dirtDark: '#1a1717',
+    clouds: false, stars: false
+  }
+};
+
+// ---- 12 Handcrafted Levels ----
+// Entities:
+// platforms: [x, y, w, h]
+// spikes: [x, y, count] (each spike is 16px wide, 16px tall)
+// movers: [x, y, w, h, dx, dy, speed]
+// springs: [x, y]
+// coins: [x, y]
+// goal: [x, y]
+const LEVELS = [
+  {
+    name: '1-1 Green Meadows',
+    theme: 'day',
+    width: 2400,
+    spawn: [60, 420],
+    goal: [2280, 396],
+    platforms: [
+      [0, 480, 750, 60],
+      [420, 420, 110, 24],
+      [580, 360, 110, 24],
+      [840, 480, 600, 60],
+      [1050, 410, 120, 24],
+      [1240, 340, 120, 24],
+      [1540, 480, 860, 60],
+      [1750, 416, 96, 64],
+      [1846, 352, 96, 128]
+    ],
+    spikes: [
+      [960, 464, 3],
+      [1680, 464, 3]
+    ],
+    movers: [],
+    springs: [[1480, 464]],
+    coins: [
+      [465, 380], [625, 320], [795, 410],
+      [1100, 370], [1290, 300], [1480, 360],
+      [1790, 376], [1886, 312], [2100, 440]
+    ]
+  },
+  {
+    name: '1-2 Gap Runner',
+    theme: 'day',
+    width: 2800,
+    spawn: [60, 420],
+    goal: [2680, 336],
+    platforms: [
+      [0, 480, 420, 60],
+      [530, 450, 220, 90],
+      [870, 410, 200, 130],
+      [1200, 480, 450, 60],
+      [1350, 380, 130, 24],
+      [1780, 440, 180, 100],
+      [2080, 390, 180, 150],
+      [2380, 420, 420, 120]
+    ],
+    spikes: [
+      [1280, 464, 4],
+      [1540, 464, 4]
+    ],
+    movers: [],
+    springs: [[1610, 464]],
+    coins: [
+      [475, 390], [630, 410], [960, 370],
+      [1405, 340], [1610, 320], [1860, 400],
+      [2160, 350], [2500, 380]
+    ]
+  },
+  {
+    name: '1-3 Sky Bridges',
+    theme: 'day',
+    width: 3000,
+    spawn: [60, 420],
+    goal: [2880, 216],
+    platforms: [
+      [0, 480, 380, 60],
+      [820, 420, 260, 120],
+      [1520, 360, 240, 180],
+      [2240, 300, 220, 240],
+      [2720, 300, 280, 240]
+    ],
+    spikes: [
+      [910, 404, 4],
+      [1600, 344, 4]
+    ],
+    movers: [
+      [440, 450, 110, 22, 260, 0, 1.4],
+      [1150, 390, 110, 22, 260, 0, 1.6],
+      [1840, 330, 110, 22, 280, 0, 1.8],
+      [2500, 300, 100, 22, 140, 0, 1.5]
+    ],
+    springs: [],
+    coins: [
+      [560, 400], [680, 400], [940, 340],
+      [1280, 340], [1630, 280], [1980, 280],
+      [2340, 260], [2570, 250]
+    ]
+  },
+  {
+    name: '2-1 Sunset Canyon',
+    theme: 'sunset',
+    width: 3100,
+    spawn: [60, 420],
+    goal: [2980, 396],
+    platforms: [
+      [0, 480, 500, 60],
+      [350, 400, 100, 24],
+      [620, 340, 180, 200],
+      [920, 480, 520, 60],
+      [1560, 420, 160, 120],
+      [1840, 350, 160, 190],
+      [2120, 280, 160, 260],
+      [2420, 480, 680, 60]
+    ],
+    spikes: [
+      [1040, 464, 5],
+      [1260, 464, 5],
+      [2560, 464, 6],
+      [2780, 464, 5]
+    ],
+    movers: [
+      [1160, 380, 100, 22, 0, -110, 1.6]
+    ],
+    springs: [[470, 464], [2390, 464]],
+    coins: [
+      [390, 360], [700, 300], [1200, 250],
+      [1630, 380], [1910, 310], [2190, 240],
+      [2600, 400], [2820, 400]
+    ]
+  },
+  {
+    name: '2-2 Spring Valley',
+    theme: 'sunset',
+    width: 3200,
+    spawn: [60, 420],
+    goal: [3060, 156],
+    platforms: [
+      [0, 480, 440, 60],
+      [540, 320, 240, 220],
+      [900, 480, 360, 60],
+      [1380, 260, 240, 280],
+      [1760, 480, 400, 60],
+      [2280, 340, 220, 200],
+      [2640, 240, 560, 300]
+    ],
+    spikes: [
+      [620, 304, 4],
+      [1020, 464, 6],
+      [1460, 244, 4],
+      [1900, 464, 6],
+      [2760, 224, 5]
+    ],
+    movers: [],
+    springs: [
+      [400, 464],
+      [1220, 464],
+      [2120, 464],
+      [2540, 324]
+    ],
+    coins: [
+      [430, 260], [650, 240], [1250, 200],
+      [1490, 180], [2150, 240], [2380, 300],
+      [2800, 160], [2950, 200]
+    ]
+  },
+  {
+    name: '2-3 Amber Towers',
+    theme: 'sunset',
+    width: 3300,
+    spawn: [60, 420],
+    goal: [3160, 216],
+    platforms: [
+      [0, 480, 360, 60],
+      [460, 400, 120, 140],
+      [680, 320, 120, 220],
+      [900, 240, 120, 300],
+      [1160, 460, 320, 80],
+      [1620, 380, 140, 160],
+      [1880, 300, 140, 240],
+      [2140, 220, 140, 320],
+      [2420, 480, 360, 60],
+      [2920, 300, 380, 240]
+    ],
+    spikes: [
+      [1260, 444, 6],
+      [2520, 464, 6]
+    ],
+    movers: [
+      [2740, 440, 110, 22, 0, -160, 1.8]
+    ],
+    springs: [[2740, 464]],
+    coins: [
+      [510, 360], [730, 280], [950, 200],
+      [1300, 380], [1680, 340], [1940, 260],
+      [2200, 180], [2560, 390], [3020, 260]
+    ]
+  },
+  {
+    name: '3-1 Midnight Neon',
+    theme: 'night',
+    width: 3400,
+    spawn: [60, 420],
+    goal: [3260, 396],
+    platforms: [
+      [0, 480, 420, 60],
+      [540, 440, 180, 24],
+      [840, 380, 180, 24],
+      [1140, 320, 180, 24],
+      [1460, 480, 520, 60],
+      [2120, 410, 160, 24],
+      [2400, 340, 160, 24],
+      [2700, 480, 700, 60]
+    ],
+    spikes: [
+      [1580, 464, 5],
+      [1800, 464, 5],
+      [2840, 464, 6],
+      [3040, 464, 5]
+    ],
+    movers: [
+      [1680, 360, 100, 22, 160, 0, 2.0]
+    ],
+    springs: [[1940, 464]],
+    coins: [
+      [620, 400], [920, 340], [1220, 280],
+      [1720, 310], [2190, 370], [2470, 300],
+      [2880, 390], [3080, 390]
+    ]
+  },
+  {
+    name: '3-2 Starlight Ascent',
+    theme: 'night',
+    width: 3500,
+    spawn: [60, 420],
+    goal: [3360, 136],
+    platforms: [
+      [0, 480, 380, 60],
+      [500, 420, 140, 24],
+      [740, 350, 140, 24],
+      [980, 280, 140, 24],
+      [1220, 210, 200, 24],
+      [1560, 460, 420, 80],
+      [2120, 320, 160, 24],
+      [2400, 240, 160, 24],
+      [2680, 180, 160, 24],
+      [2980, 220, 520, 320]
+    ],
+    spikes: [
+      [1290, 194, 3],
+      [1680, 444, 6],
+      [3100, 204, 5]
+    ],
+    movers: [
+      [1880, 420, 100, 22, 0, -140, 1.9]
+    ],
+    springs: [[1920, 444]],
+    coins: [
+      [560, 380], [800, 310], [1040, 240],
+      [1310, 140], [1720, 370], [2190, 280],
+      [2470, 200], [2750, 140], [3140, 140]
+    ]
+  },
+  {
+    name: '3-3 Cyber Clockwork',
+    theme: 'night',
+    width: 3600,
+    spawn: [60, 420],
+    goal: [3460, 336],
+    platforms: [
+      [0, 480, 350, 60],
+      [960, 420, 220, 120],
+      [1820, 380, 220, 160],
+      [2680, 420, 220, 120],
+      [3240, 420, 360, 120]
+    ],
+    spikes: [
+      [1030, 404, 5],
+      [1890, 364, 5],
+      [2750, 404, 5]
+    ],
+    movers: [
+      [420, 460, 100, 22, 180, 0, 2.2],
+      [680, 420, 100, 22, 180, 0, 2.2],
+      [1260, 400, 100, 22, 200, 0, 2.3],
+      [1540, 360, 100, 22, 200, 0, 2.3],
+      [2120, 380, 100, 22, 200, 0, 2.4],
+      [2400, 420, 100, 22, 200, 0, 2.4],
+      [2960, 420, 110, 22, 180, 0, 2.1]
+    ],
+    springs: [],
+    coins: [
+      [510, 400], [770, 360], [1060, 340],
+      [1360, 340], [1640, 300], [1920, 300],
+      [2220, 320], [2500, 360], [2780, 340], [3050, 360]
+    ]
+  },
+  {
+    name: '4-1 Magma Approach',
+    theme: 'volcano',
+    width: 3700,
+    spawn: [60, 420],
+    goal: [3560, 396],
+    platforms: [
+      [0, 480, 420, 60],
+      [540, 440, 160, 100],
+      [820, 390, 160, 150],
+      [1120, 480, 560, 60],
+      [1820, 420, 150, 120],
+      [2100, 350, 150, 190],
+      [2380, 280, 150, 260],
+      [2680, 480, 1020, 60]
+    ],
+    spikes: [
+      [600, 424, 3],
+      [1240, 464, 6],
+      [1460, 464, 6],
+      [2820, 464, 6],
+      [3040, 464, 6],
+      [3260, 464, 6]
+    ],
+    movers: [
+      [1350, 380, 96, 22, 140, 0, 2.2]
+    ],
+    springs: [[1640, 464], [3380, 464]],
+    coins: [
+      [620, 370], [890, 350], [1280, 390],
+      [1500, 390], [1890, 380], [2170, 310],
+      [2450, 240], [2860, 390], [3080, 390], [3300, 390]
+    ]
+  },
+  {
+    name: '4-2 Obsidian Gauntlet',
+    theme: 'volcano',
+    width: 3800,
+    spawn: [60, 420],
+    goal: [3660, 196],
+    platforms: [
+      [0, 480, 360, 60],
+      [480, 400, 130, 24],
+      [720, 320, 130, 24],
+      [960, 440, 280, 100],
+      [1380, 360, 130, 24],
+      [1640, 280, 130, 24],
+      [1920, 460, 340, 80],
+      [2400, 360, 140, 24],
+      [2680, 280, 140, 24],
+      [2960, 200, 140, 24],
+      [3260, 280, 540, 260]
+    ],
+    spikes: [
+      [1040, 424, 6],
+      [2020, 444, 7],
+      [3380, 264, 6]
+    ],
+    movers: [
+      [2200, 420, 96, 22, 0, -130, 2.3]
+    ],
+    springs: [[1200, 424], [2220, 444]],
+    coins: [
+      [540, 360], [780, 280], [1080, 350],
+      [1440, 320], [1700, 240], [2060, 370],
+      [2460, 320], [2740, 240], [3020, 160], [3420, 200]
+    ]
+  },
+  {
+    name: '4-3 Rush Core Finale',
+    theme: 'volcano',
+    width: 4200,
+    spawn: [60, 420],
+    goal: [4060, 256],
+    platforms: [
+      [0, 480, 360, 60],
+      [480, 420, 120, 24],
+      [720, 340, 120, 24],
+      [1420, 380, 220, 160],
+      [1780, 300, 120, 24],
+      [2040, 220, 120, 24],
+      [2320, 460, 380, 80],
+      [3280, 340, 200, 200],
+      [3640, 280, 120, 24],
+      [3880, 340, 320, 200]
+    ],
+    spikes: [
+      [1490, 364, 5],
+      [2420, 444, 6],
+      [2560, 444, 4],
+      [3340, 324, 5]
+    ],
+    movers: [
+      [920, 360, 96, 22, 160, 0, 2.5],
+      [1180, 400, 96, 22, 160, 0, 2.5],
+      [2780, 440, 96, 22, 180, 0, 2.6],
+      [3040, 380, 96, 22, 160, 0, 2.6]
+    ],
+    springs: [[2660, 444]],
+    coins: [
+      [530, 380], [770, 300], [1000, 300],
+      [1260, 340], [1520, 300], [1830, 260],
+      [2090, 180], [2500, 370], [2860, 380],
+      [3120, 320], [3380, 260], [3690, 240]
+    ]
+  }
+];
+
+// ---- Persistence (Saved Progress) ----
+let unlockedLevel = 0;
+let bestTimes = {};
+let bestCoins = {};
+try {
+  const saved = JSON.parse(localStorage.getItem('rushtale_save') || '{}');
+  if (typeof saved.unlocked === 'number') unlockedLevel = Math.min(LEVELS.length - 1, saved.unlocked);
+  if (saved.bestTimes) bestTimes = saved.bestTimes;
+  if (saved.bestCoins) bestCoins = saved.bestCoins;
+} catch (e) {}
+
+function saveProgress() {
+  try {
+    localStorage.setItem('rushtale_save', JSON.stringify({
+      unlocked: unlockedLevel,
+      bestTimes,
+      bestCoins
+    }));
+  } catch (e) {}
+}
+
+// ---- Global State ----
+let screen = 'menu';        // 'menu' | 'select' | 'levels' | 'play' | 'win'
+let selected = 0;
+let currentLevelIdx = 0;
+let levelSelectPage = 0;
+let buttons = [];
+let hovered = null;
+let crtEnabled = true;
+let globalTime = 0;
+
+// ---- Active Level State ----
+let level = null;
+let platforms = [];
+let movers = [];
+let spikes = [];
+let springs = [];
+let coins = [];
+let goal = null;
+let particles = [];
+let player = null;
+let camX = 0;
+let shakeTime = 0;
+let levelTime = 0;
+let coinsCollected = 0;
+let deaths = 0;
+
+// ---- Input ----
+const keys = {};
+const left  = () => keys.ArrowLeft  || keys.KeyA;
+const right = () => keys.ArrowRight || keys.KeyD;
+const jumpHeld = () => keys.ArrowUp || keys.KeyW || keys.Space;
+
+addEventListener('keydown', e => {
+  if (['Space', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.code)) e.preventDefault();
+  const isNewPress = !keys[e.code];
+  keys[e.code] = true;
+  if (isNewPress) onPress(e.code);
+});
+addEventListener('keyup', e => { keys[e.code] = false; });
+
+function onPress(code) {
+  const confirm = code === 'Enter' || code === 'Space';
+  if (code === 'KeyM') { muted = !muted; return; }
+  if (code === 'KeyC') { crtEnabled = !crtEnabled; return; }
+
+  if (screen === 'menu') {
+    if (confirm) { sfx.click(); startLevel(unlockedLevel); }
+  } else if (screen === 'select') {
+    if (code === 'ArrowLeft' || code === 'KeyA') {
+      sfx.click();
+      selected = (selected + CHARACTERS.length - 1) % CHARACTERS.length;
+    }
+    if (code === 'ArrowRight' || code === 'KeyD') {
+      sfx.click();
+      selected = (selected + 1) % CHARACTERS.length;
+    }
+    if (confirm || code === 'Escape') { sfx.click(); setScreen('menu'); }
+  } else if (screen === 'levels') {
+    if (code === 'Escape') { sfx.click(); setScreen('menu'); }
+  } else if (screen === 'play') {
+    if (code === 'Escape') { sfx.click(); setScreen('menu'); }
+    if (code === 'KeyR') { respawnPlayer(false); }
+    if (code === 'ArrowUp' || code === 'KeyW' || code === 'Space') {
+      tryJump();
+    }
+  } else if (screen === 'win') {
+    if (confirm) {
+      sfx.click();
+      if (currentLevelIdx + 1 < LEVELS.length) startLevel(currentLevelIdx + 1);
+      else setScreen('levels');
+    }
+    if (code === 'Escape') { sfx.click(); setScreen('levels'); }
+  }
+}
+
+function mousePos(e) {
+  const r = canvas.getBoundingClientRect();
+  return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height };
+}
+const inside = (p, b) => p.x >= b.x && p.x <= b.x + b.w && p.y >= b.y && p.y <= b.y + b.h;
+
+canvas.addEventListener('mousemove', e => {
+  const p = mousePos(e);
+  hovered = buttons.find(b => !b.disabled && inside(p, b)) || null;
+  canvas.style.cursor = hovered ? 'pointer' : 'default';
+});
+canvas.addEventListener('click', e => {
+  const b = buttons.find(b => !b.disabled && inside(mousePos(e), b));
+  if (b) {
+    sfx.click();
+    b.action();
+  }
+});
+
+// ---- Screens ----
+function setScreen(name) {
+  screen = name;
+  hovered = null;
+  canvas.style.cursor = 'default';
+  if (name === 'menu') {
+    buttons = [
+      { x: W / 2 - 210, y: 245, w: 420, h: 56, label: 'Play', primary: true, size: 22, action: () => startLevel(unlockedLevel) },
+      { x: W / 2 - 210, y: 315, w: 420, h: 52, label: 'Level Select', primary: false, size: 18, action: () => setScreen('levels') },
+      { x: W / 2 - 210, y: 380, w: 420, h: 52, label: 'Characters', primary: false, size: 18, action: () => setScreen('select') },
+      { x: W - 190, y: 20, w: 170, h: 36, label: () => crtEnabled ? 'CRT: ON' : 'CRT: OFF', size: 12, action: () => { crtEnabled = !crtEnabled; } },
+      { x: W - 190, y: 64, w: 170, h: 36, label: () => muted ? 'SFX: OFF' : 'SFX: ON', size: 12, action: () => { muted = !muted; } }
+    ];
+  } else if (name === 'select') {
+    const cardW = 195, gap = 22;
+    const totalW = CHARACTERS.length * cardW + (CHARACTERS.length - 1) * gap;
+    const startX = (W - totalW) / 2;
+    buttons = CHARACTERS.map((c, i) => ({
+      x: startX + i * (cardW + gap), y: 105, w: cardW, h: 280, card: true, index: i,
+      action: () => { selected = i; }
+    }));
+    buttons.push({ x: 30, y: 26, w: 130, h: 44, label: 'Back', size: 14, action: () => setScreen('menu') });
+    buttons.push({ x: W / 2 - 140, y: 425, w: 280, h: 56, label: 'Confirm', primary: true, size: 22, action: () => setScreen('menu') });
+  } else if (name === 'levels') {
+    const perPage = 6;
+    const maxPages = Math.ceil(LEVELS.length / perPage);
+    buttons = [
+      { x: 30, y: 26, w: 130, h: 44, label: 'Back', size: 14, action: () => setScreen('menu') }
+    ];
+    const cols = 3, rows = 2;
+    const boxW = 260, boxH = 140, gapX = 30, gapY = 28;
+    const gridW = cols * boxW + (cols - 1) * gapX;
+    const startX = (W - gridW) / 2;
+    const startY = 115;
+
+    for (let i = 0; i < perPage; i++) {
+      const idx = levelSelectPage * perPage + i;
+      if (idx >= LEVELS.length) break;
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      const locked = idx > unlockedLevel;
+      buttons.push({
+        x: startX + col * (boxW + gapX),
+        y: startY + row * (boxH + gapY),
+        w: boxW, h: boxH,
+        levelCard: true,
+        levelIdx: idx,
+        disabled: locked,
+        action: () => startLevel(idx)
+      });
+    }
+
+    if (levelSelectPage > 0) {
+      buttons.push({ x: W / 2 - 220, y: 445, w: 180, h: 48, label: '< Prev', size: 14, action: () => { levelSelectPage--; setScreen('levels'); } });
+    }
+    if (levelSelectPage < maxPages - 1) {
+      buttons.push({ x: W / 2 + 40, y: 445, w: 180, h: 48, label: 'Next >', size: 14, action: () => { levelSelectPage++; setScreen('levels'); } });
+    }
+  } else if (name === 'win') {
+    buttons = [
+      { x: W / 2 - 210, y: 340, w: 420, h: 56, label: currentLevelIdx + 1 < LEVELS.length ? 'Next Stage' : 'All Clear!', primary: true, size: 20, action: () => {
+        if (currentLevelIdx + 1 < LEVELS.length) startLevel(currentLevelIdx + 1);
+        else setScreen('levels');
+      }},
+      { x: W / 2 - 210, y: 410, w: 200, h: 48, label: 'Replay', size: 14, action: () => startLevel(currentLevelIdx) },
+      { x: W / 2 + 10, y: 410, w: 200, h: 48, label: 'Stages', size: 14, action: () => setScreen('levels') }
+    ];
+  } else {
+    buttons = [];
+  }
+}
+
+// ---- Level Loader & Physics ----
+const BASE_GRAVITY = 1800;
+
+function startLevel(idx) {
+  currentLevelIdx = idx;
+  level = LEVELS[idx];
+  platforms = level.platforms.map(([x, y, w, h]) => ({ x, y, w, h }));
+  movers = level.movers.map(([x, y, w, h, dx, dy, speed]) => ({
+    startX: x, startY: y, x, y, w, h, dx, dy, speed, phase: 0, vx: 0, vy: 0
+  }));
+  spikes = level.spikes.map(([x, y, count]) => ({ x, y, w: count * 16, h: 16, count }));
+  springs = level.springs.map(([x, y]) => ({ x, y, w: 28, h: 16, bounceTimer: 0 }));
+  coins = level.coins.map(([x, y]) => ({ x, y, r: 9, collected: false, bob: x * 0.05 }));
+  goal = { x: level.goal[0], y: level.goal[1], w: 28, h: 84 };
+
+  particles = [];
+  levelTime = 0;
+  coinsCollected = 0;
+  deaths = 0;
+  respawnPlayer(true);
+  setScreen('play');
+}
+
+function respawnPlayer(silent = false) {
+  const c = CHARACTERS[selected];
+  player = {
+    ...c,
+    x: level.spawn[0],
+    y: level.spawn[1] - c.h,
+    vx: 0, vy: 0,
+    onGround: false,
+    jumpsLeft: c.doubleJump ? 2 : 1,
+    coyoteTimer: 0,
+    face: 1,
+    phase: 0,
+    t: 0,
+    trail: []
+  };
+  camX = Math.max(0, Math.min(level.width - W, player.x - W * 0.35));
+  if (!silent) {
+    sfx.hurt();
+    shakeTime = 0.22;
+    deaths++;
+    spawnParticles(player.x + player.w / 2, player.y + player.h / 2, '#ff4d4d', 18, 220);
+  }
+}
+
+function spawnParticles(x, y, color, count, speed = 120) {
+  for (let i = 0; i < count; i++) {
+    const a = Math.random() * Math.PI * 2;
+    const s = (0.3 + Math.random() * 0.7) * speed;
+    particles.push({
+      x, y,
+      vx: Math.cos(a) * s,
+      vy: Math.sin(a) * s - 40,
+      life: 0.25 + Math.random() * 0.25,
+      maxLife: 0.5,
+      size: 3 + Math.floor(Math.random() * 4),
+      color
+    });
+  }
+}
+
+function tryJump() {
+  if (!player) return;
+  if (player.onGround || player.coyoteTimer > 0) {
+    player.vy = -player.jump;
+    player.onGround = false;
+    player.coyoteTimer = 0;
+    player.jumpsLeft = player.doubleJump ? 1 : 0;
+    sfx.jump();
+    spawnParticles(player.x + player.w / 2, player.y + player.h, '#ffffff', 7, 90);
+  } else if (player.jumpsLeft > 0) {
+    player.vy = -player.jump * 0.92;
+    player.jumpsLeft--;
+    sfx.djump();
+    spawnParticles(player.x + player.w / 2, player.y + player.h, player.accent, 12, 130);
+  }
+}
+
+function hit(a, b) {
+  return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
+}
+
+function update(dt) {
+  globalTime += dt;
+  if (shakeTime > 0) shakeTime = Math.max(0, shakeTime - dt);
+
+  // Update particles
+  for (let i = particles.length - 1; i >= 0; i--) {
+    const p = particles[i];
+    p.x += p.vx * dt;
+    p.y += p.vy * dt;
+    p.vy += 450 * dt;
+    p.life -= dt;
+    if (p.life <= 0) particles.splice(i, 1);
+  }
+
+  if (screen !== 'play') return;
+  levelTime += dt;
+
+  // Update moving platforms
+  for (const m of movers) {
+    const prevX = m.x, prevY = m.y;
+    m.phase += dt * m.speed;
+    const t = (Math.sin(m.phase - Math.PI / 2) + 1) / 2;
+    m.x = m.startX + m.dx * t;
+    m.y = m.startY + m.dy * t;
+    m.vx = (m.x - prevX) / dt;
+    m.vy = (m.y - prevY) / dt;
+  }
+
+  // Update springs
+  for (const s of springs) {
+    if (s.bounceTimer > 0) s.bounceTimer = Math.max(0, s.bounceTimer - dt);
+  }
+
+  // Player horizontal movement
+  const dir = (right() ? 1 : 0) - (left() ? 1 : 0);
+  if (dir !== 0) {
+    const accel = (player.vx === 0 || Math.sign(player.vx) === dir) ? 1450 : 2800;
+    player.vx = Math.max(-player.speed, Math.min(player.speed, player.vx + dir * accel * dt));
+    player.face = dir;
+  } else {
+    const slow = (player.onGround ? 2200 : 500) * dt;
+    player.vx = Math.abs(player.vx) <= slow ? 0 : player.vx - Math.sign(player.vx) * slow;
+  }
+
+  // Variable jump height when releasing jump early
+  if (!jumpHeld() && player.vy < -220) {
+    player.vy += BASE_GRAVITY * 1.4 * dt;
+  }
+
+  player.vy += BASE_GRAVITY * player.gravityScale * dt;
+
+  // All solid surfaces
+  const solids = [...platforms, ...movers];
+
+  // Move X
+  player.x += player.vx * dt;
+  for (const p of solids) {
+    if (hit(player, p)) {
+      player.x = player.vx > 0 ? p.x - player.w : p.x + p.w;
+      player.vx = 0;
+    }
+  }
+  player.x = Math.max(0, Math.min(level.width - player.w, player.x));
+
+  // Move Y
+  const wasOnGround = player.onGround;
+  player.y += player.vy * dt;
+  player.onGround = false;
+  let ridingMover = null;
+
+  for (const p of solids) {
+    if (hit(player, p)) {
+      if (player.vy >= 0) {
+        if (!wasOnGround && player.vy > 280) {
+          spawnParticles(player.x + player.w / 2, p.y, '#e2e8f0', 6, 70);
+        }
+        player.y = p.y - player.h;
+        player.onGround = true;
+        player.jumpsLeft = player.doubleJump ? 2 : 1;
+        if (p.vx !== undefined) ridingMover = p;
+      } else {
+        player.y = p.y + p.h;
+      }
+      player.vy = 0;
+    }
+  }
+
+  // Carry player with moving platform
+  if (ridingMover) {
+    player.x += ridingMover.vx * dt;
+    player.x = Math.max(0, Math.min(level.width - player.w, player.x));
+  }
+
+  // Coyote time
+  if (player.onGround) player.coyoteTimer = 0.09;
+  else player.coyoteTimer = Math.max(0, player.coyoteTimer - dt);
+
+  // Check Springs
+  for (const s of springs) {
+    if (hit(player, s)) {
+      player.vy = -960;
+      player.onGround = false;
+      player.jumpsLeft = player.doubleJump ? 2 : 1;
+      s.bounceTimer = 0.25;
+      sfx.spring();
+      spawnParticles(s.x + s.w / 2, s.y, '#ffd23f', 12, 160);
+    }
+  }
+
+  // Check Coins
+  for (const c of coins) {
+    c.bob += dt * 4;
+    if (!c.collected) {
+      const coinBox = { x: c.x - c.r, y: c.y - c.r, w: c.r * 2, h: c.r * 2 };
+      if (hit(player, coinBox)) {
+        c.collected = true;
+        coinsCollected++;
+        sfx.coin();
+        spawnParticles(c.x, c.y, '#ffd23f', 10, 120);
+      }
+    }
+  }
+
+  // Check Spikes or Pitfall
+  for (const sp of spikes) {
+    const hurtBox = { x: sp.x + 3, y: sp.y + 4, w: sp.w - 6, h: sp.h - 4 };
+    if (hit(player, hurtBox)) {
+      respawnPlayer(false);
+      return;
+    }
+  }
+  if (player.y > H + 120) {
+    respawnPlayer(false);
+    return;
+  }
+
+  // Check Goal Flag
+  if (hit(player, goal)) {
+    sfx.win();
+    spawnParticles(goal.x + 14, goal.y + 20, '#ffd23f', 30, 260);
+    if (currentLevelIdx + 1 > unlockedLevel && currentLevelIdx + 1 < LEVELS.length) {
+      unlockedLevel = currentLevelIdx + 1;
+    }
+    const prevBest = bestTimes[currentLevelIdx];
+    if (!prevBest || levelTime < prevBest) bestTimes[currentLevelIdx] = levelTime;
+    const prevCoins = bestCoins[currentLevelIdx] || 0;
+    if (coinsCollected > prevCoins) bestCoins[currentLevelIdx] = coinsCollected;
+    saveProgress();
+    setScreen('win');
+    return;
+  }
+
+  // Animation & Speed Trail
+  player.t += dt;
+  if (player.onGround && Math.abs(player.vx) > 5) {
+    player.phase += dt * (7 + Math.abs(player.vx) * 0.03);
+  }
+  if (Math.abs(player.vx) > 410 || !player.onGround) {
+    if (Math.floor(player.t * 60) % 2 === 0) {
+      player.trail.push({ x: player.x, y: player.y, face: player.face, alpha: 0.45 });
+    }
+  }
+  for (let i = player.trail.length - 1; i >= 0; i--) {
+    player.trail[i].alpha -= dt * 2.4;
+    if (player.trail[i].alpha <= 0) player.trail.splice(i, 1);
+  }
+
+  // Smooth Camera Follow
+  const targetCam = player.x + player.w / 2 - W * 0.38;
+  const clampedCam = Math.max(0, Math.min(level.width - W, targetCam));
+  camX += (clampedCam - camX) * Math.min(1, dt * 10);
+}
+
+// ---- Drawing Helpers ----
+function outlined(str, x, y, size, fill, line = 5, align = 'center') {
+  ctx.font = `${size}px ${PIXEL_FONT}`;
+  ctx.textAlign = align;
+  ctx.textBaseline = 'middle';
+  ctx.lineJoin = 'round';
+  ctx.lineWidth = line;
+  ctx.strokeStyle = '#000';
+  ctx.strokeText(str, x, y);
+  ctx.fillStyle = fill;
+  ctx.fillText(str, x, y);
+}
+
+function drawButton(b) {
+  if (b.card || b.levelCard) return;
+  const hot = hovered === b;
+  const label = typeof b.label === 'function' ? b.label() : b.label;
+  ctx.fillStyle = '#000';
+  ctx.fillRect(b.x + 4, b.y + 4, b.w, b.h);
+
+  if (b.primary) ctx.fillStyle = hot ? '#ffe869' : '#ffd23f';
+  else ctx.fillStyle = hot ? '#ffffff' : '#d8e0ef';
+  ctx.fillRect(b.x, b.y, b.w, b.h);
+
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 4;
+  ctx.strokeRect(b.x + 2, b.y + 2, b.w - 4, b.h - 4);
+  outlined(label.toUpperCase(), b.x + b.w / 2, b.y + b.h / 2 + 2, b.size || 20, '#fff', 4);
+}
+
+// Upgraded Character Renderer with unique accessories per character
+function drawChar(c, x, y, scale = 1, face = 1, pose = {}, alpha = 1) {
+  const SKIN = c.skin, SKIN_DARK = c.skinDark, SHIRT = c.shirt;
+  const PANTS = c.pants, PANTS_DARK = c.pantsDark, INK = '#1b1b1b';
+  const lerp = (a, b, t) => a + (b - a) * t;
+  const speed = pose.speed || 0;
+  const move = Math.min(1, speed / 60);
+  const sprint = Math.max(0, Math.min(1, (speed - 180) / 150));
+  const sn = Math.sin(pose.phase || 0);
+  const LEG = c.sprite === 'tank' ? 17 : 16;
+  const ARM = c.sprite === 'tank' ? 15 : 14;
+
+  let leg, arm, lean;
+  if (pose.air) {
+    const sway = Math.sin((pose.t || 0) * 12) * 0.1;
+    leg = [0.7, -0.5];
+    arm = [-2.1 + sway, -1.8 - sway];
+    lean = 0.08 + sprint * 0.2;
+  } else {
+    const A = lerp(0.55, 0.92, sprint) * move;
+    const AA = lerp(0.5, 1.05, sprint) * move;
+    leg = [A * sn, -A * sn];
+    arm = [-AA * sn, AA * sn];
+    lean = lerp(0.04, 0.4, sprint) * move;
+  }
+  const breathe = (pose.air || move > 0) ? 0 : Math.sin((pose.t || 0) * 2.5) * 0.4;
+  const hipY = -(pose.air ? LEG : Math.max(LEG * Math.cos(leg[0]), LEG * Math.cos(leg[1])));
+
+  const limb = (px, py, a, len, w, fill) => {
+    ctx.save();
+    ctx.translate(px, py);
+    ctx.rotate(-a);
+    ctx.fillStyle = fill;
+    ctx.fillRect(-w / 2, 0, w, len);
+    ctx.beginPath();
+    ctx.arc(0, 0, w / 2, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  };
+  const upper = fn => { ctx.save(); ctx.translate(0, -breathe); ctx.rotate(lean); fn(); ctx.restore(); };
+
+  ctx.save();
+  ctx.globalAlpha = alpha;
+  ctx.translate(x + c.w * scale / 2, y + c.h * scale);
+  ctx.scale(face > 0 ? scale : -scale, scale);
+  ctx.translate(0, hipY);
+
+  const armW = c.sprite === 'tank' ? 6.5 : 5;
+  const legW = c.sprite === 'tank' ? 7.5 : 6;
+  const torsoW = c.sprite === 'tank' ? 14 : 10;
+
+  // Far arm & legs
+  upper(() => limb(0, -13, arm[1], ARM, armW, SKIN_DARK));
+  limb(0, -1, leg[1], LEG, legW, PANTS_DARK);
+  limb(0, -1, leg[0], LEG, legW, PANTS);
+
+  // Torso & Head
+  upper(() => {
+    ctx.fillStyle = SHIRT;
+    ctx.fillRect(-torsoW / 2, -16, torsoW, 16);
+
+    // Character-specific torso details
+    if (c.sprite === 'tank') {
+      ctx.fillStyle = '#52b788';
+      ctx.fillRect(-torsoW / 2, -16, torsoW, 5);
+    } else if (c.sprite === 'aero') {
+      // Scarf tail
+      ctx.fillStyle = '#fff';
+      ctx.fillRect(-torsoW / 2 - 2, -16, torsoW + 3, 4);
+      const wave = Math.sin((pose.t || 0) * 10) * 2;
+      ctx.fillRect(-torsoW / 2 - 7, -15 + wave, 6, 3);
+    }
+
+    // Head
+    ctx.fillStyle = SKIN;
+    ctx.beginPath();
+    ctx.moveTo(-3.5, -28);
+    ctx.arcTo(6, -28, 6, -16, 2.5);
+    ctx.arcTo(6, -16, -6, -16, 2.5);
+    ctx.arcTo(-6, -16, -6, -28, 2.5);
+    ctx.arcTo(-6, -28, 6, -28, 2.5);
+    ctx.closePath();
+    ctx.fill();
+
+    // Eyes & Mouth
+    ctx.fillStyle = INK;
+    ctx.fillRect(2.6, -23.6, 1.8, 2.6);
+    ctx.fillRect(1.8, -19.4, 3.6, 1);
+
+    // Character-specific Headgear
+    if (c.sprite === 'blaze') {
+      // Spiky headband + flame hair
+      ctx.fillStyle = '#d00000';
+      ctx.fillRect(-6.5, -26, 13, 3);
+      ctx.fillStyle = '#ffaa00';
+      ctx.beginPath();
+      ctx.moveTo(-6, -26); ctx.lineTo(-9, -32); ctx.lineTo(-2, -28);
+      ctx.lineTo(1, -34); ctx.lineTo(4, -28); ctx.closePath(); ctx.fill();
+    } else if (c.sprite === 'aero') {
+      // Aviator goggles on forehead
+      ctx.fillStyle = '#03045e';
+      ctx.fillRect(-6.5, -27.5, 13, 3.5);
+      ctx.fillStyle = '#90e0ef';
+      ctx.fillRect(1, -27, 4.5, 2.5);
+    } else if (c.sprite === 'tank') {
+      // Retro Helmet
+      ctx.fillStyle = '#2b9348';
+      ctx.fillRect(-6.8, -29.5, 13.6, 5);
+      ctx.fillStyle = '#000';
+      ctx.fillRect(-6.8, -25.5, 13.6, 1.5);
+    }
+  });
+
+  // Near arm
+  upper(() => limb(0, -13, arm[0], ARM, armW, SKIN));
+  ctx.restore();
+}
+
+// ---- World Drawing ----
+function drawParallaxBackground(theme) {
+  const grad = ctx.createLinearGradient(0, 0, 0, H);
+  grad.addColorStop(0, theme.skyTop);
+  grad.addColorStop(1, theme.skyBot);
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, W, H);
+
+  // Stars for night theme
+  if (theme.stars) {
+    for (let i = 0; i < 45; i++) {
+      const sx = ((i * 197) % W);
+      const sy = ((i * 89) % 260) + 20;
+      const blink = Math.sin(globalTime * 3 + i) > 0.2 ? 3 : 2;
+      ctx.fillStyle = i % 3 === 0 ? '#90e0ef' : '#ffffff';
+      ctx.fillRect(sx, sy, blink, blink);
+    }
+  }
+
+  // Retro Sun / Moon
+  ctx.fillStyle = theme.stars ? '#f8f9fa' : (theme === THEMES.volcano ? '#ff5400' : '#ffe66d');
+  ctx.beginPath();
+  ctx.arc(760 - camX * 0.03, 110, 38, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Clouds
+  if (theme.clouds) {
+    ctx.fillStyle = 'rgba(255,255,255,0.75)';
+    for (let i = 0; i < 8; i++) {
+      const cx = ((i * 340 - camX * 0.15) % (W + 200) + (W + 200)) % (W + 200) - 100;
+      const cy = 60 + (i % 3) * 45;
+      ctx.fillRect(cx, cy, 72, 18);
+      ctx.fillRect(cx + 14, cy - 10, 44, 12);
+    }
+  }
+
+  // Far Mountains / Hills (Parallax 0.25)
+  ctx.fillStyle = theme.hill1;
+  for (let i = -1; i < 12; i++) {
+    const hx = i * 240 - ((camX * 0.25) % 240);
+    ctx.beginPath();
+    ctx.moveTo(hx, H);
+    ctx.lineTo(hx + 120, 250 + (Math.abs(i) % 2) * 40);
+    ctx.lineTo(hx + 240, H);
+    ctx.closePath();
+    ctx.fill();
+  }
+
+  // Near Hills (Parallax 0.45)
+  ctx.fillStyle = theme.hill2;
+  for (let i = -1; i < 14; i++) {
+    const hx = i * 190 - ((camX * 0.45) % 190);
+    ctx.beginPath();
+    ctx.moveTo(hx, H);
+    ctx.lineTo(hx + 95, 330 + (Math.abs(i) % 3) * 25);
+    ctx.lineTo(hx + 190, H);
+    ctx.closePath();
+    ctx.fill();
+  }
+}
+
+function drawTerrain(p, theme, isMover = false) {
+  if (p.x + p.w < camX - 40 || p.x > camX + W + 40) return;
+
+  if (isMover) {
+    ctx.fillStyle = '#3d405b';
+    ctx.fillRect(p.x, p.y, p.w, p.h);
+    ctx.fillStyle = '#ffd23f';
+    ctx.fillRect(p.x, p.y, p.w, 6);
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth = 3;
+    ctx.strokeRect(p.x + 1.5, p.y + 1.5, p.w - 3, p.h - 3);
+    // Bolts
+    ctx.fillStyle = '#e0e1dd';
+    ctx.fillRect(p.x + 6, p.y + 10, 4, 4);
+    ctx.fillRect(p.x + p.w - 10, p.y + 10, 4, 4);
+    return;
+  }
+
+  const GRASS = 12;
+  ctx.fillStyle = theme.dirt;
+  ctx.fillRect(p.x, p.y, p.w, p.h);
+  for (let ty = p.y + GRASS; ty < p.y + p.h; ty += 16) {
+    for (let tx = p.x; tx < p.x + p.w; tx += 16) {
+      const r = (Math.imul(tx * 7 + 13, 2654435761) ^ Math.imul(ty * 13 + 7, 40503)) >>> 0;
+      if (r % 5 === 0) {
+        ctx.fillStyle = theme.dirtDark;
+        ctx.fillRect(tx + (r >>> 3) % 8, ty + (r >>> 7) % 8, 6, 4);
+      }
+    }
+  }
+  ctx.fillStyle = theme.grass;
+  ctx.fillRect(p.x, p.y, p.w, GRASS);
+  ctx.fillStyle = theme.grassDark;
+  ctx.fillRect(p.x, p.y + GRASS - 4, p.w, 4);
+  for (let tx = p.x; tx < p.x + p.w; tx += 8) {
+    const r = (Math.imul(tx * 11 + 5, 2654435761) >>> 0);
+    if (r % 3 === 0) { ctx.fillStyle = theme.grassDark; ctx.fillRect(tx, p.y + GRASS, 8, 4); }
+    if (r % 4 === 1) { ctx.fillStyle = theme.grassLight; ctx.fillRect(tx, p.y + 2, 4, 4); }
+  }
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 3;
+  ctx.strokeRect(p.x + 1.5, p.y + 1.5, p.w - 3, p.h - 3);
+}
+
+function drawSpikes(sp) {
+  if (sp.x + sp.w < camX - 40 || sp.x > camX + W + 40) return;
+  for (let i = 0; i < sp.count; i++) {
+    const sx = sp.x + i * 16;
+    ctx.fillStyle = '#e5e5e5';
+    ctx.beginPath();
+    ctx.moveTo(sx, sp.y + 16);
+    ctx.lineTo(sx + 8, sp.y);
+    ctx.lineTo(sx + 16, sp.y + 16);
+    ctx.closePath();
+    ctx.fill();
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+  }
+}
+
+function drawSpring(s) {
+  const squish = s.bounceTimer > 0 ? 6 : 0;
+  ctx.fillStyle = '#adb5bd';
+  ctx.fillRect(s.x + 6, s.y + 6 + squish, s.w - 12, 10 - squish);
+  ctx.fillStyle = '#ff2a55';
+  ctx.fillRect(s.x, s.y + squish, s.w, 7);
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(s.x, s.y + squish, s.w, 7);
+}
+
+function drawCoin(c) {
+  if (c.collected) return;
+  const by = c.y + Math.sin(c.bob) * 4;
+  ctx.fillStyle = '#ffd23f';
+  ctx.beginPath();
+  ctx.arc(c.x, by, c.r, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2.5;
+  ctx.stroke();
+  ctx.fillStyle = '#fff3b0';
+  ctx.fillRect(c.x - 2, by - 4, 3, 8);
+}
+
+function drawGoal(g) {
+  // Flagpole
+  ctx.fillStyle = '#f8f9fa';
+  ctx.fillRect(g.x + 11, g.y, 6, g.h);
+  ctx.strokeStyle = '#000';
+  ctx.lineWidth = 2;
+  ctx.strokeRect(g.x + 11, g.y, 6, g.h);
+
+  // Base
+  ctx.fillStyle = '#495057';
+  ctx.fillRect(g.x + 4, g.y + g.h - 8, 20, 8);
+
+  // Waving Checker Flag
+  const wave = Math.sin(globalTime * 6) * 3;
+  ctx.fillStyle = '#38b000';
+  ctx.beginPath();
+  ctx.moveTo(g.x + 17, g.y + 4);
+  ctx.lineTo(g.x + 48, g.y + 14 + wave);
+  ctx.lineTo(g.x + 17, g.y + 26);
+  ctx.closePath();
+  ctx.fill();
+  ctx.stroke();
+
+  // Golden Finial Ball
+  ctx.fillStyle = '#ffd23f';
+  ctx.beginPath();
+  ctx.arc(g.x + 14, g.y, 6, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.stroke();
+}
+
+// ---- Screen Rendering ----
+function drawMenu() {
+  drawParallaxBackground(THEMES.day);
+  drawTerrain({ x: 0, y: 480, w: W, h: 60 }, THEMES.day);
+
+  // Animated Demo Character running on the title screen
+  const demoChar = CHARACTERS[selected];
+  const demoX = ((globalTime * 160) % (W + 100)) - 50;
+  drawChar(demoChar, demoX, 480 - demoChar.h, 1, 1, { speed: 240, air: false, phase: globalTime * 14, t: globalTime });
+
+  // Title Banner
+  outlined('RUSH TALE', W / 2, 115, 56, '#ff3b30', 7);
+  outlined('RETRO ARCADE EDITION', W / 2, 172, 16, '#ffd23f', 4);
+
+  // Selected Runner Badge
+  outlined(`RUNNER: ${demoChar.name.toUpperCase()}`, W / 2, 212, 12, '#ffffff', 3);
+
+  buttons.forEach(drawButton);
+
+  outlined('ARROWS / WASD: MOVE & JUMP   R: RESTART', W / 2, 512, 11, '#ffffff', 3);
+}
+
+function drawSelect() {
+  drawParallaxBackground(THEMES.night);
+  outlined('SELECT YOUR RUNNER', W / 2, 52, 26, '#ffd23f', 5);
+
+  buttons.filter(b => b.card).forEach(b => {
+    const i = b.index;
+    const c = CHARACTERS[i];
+    const on = selected === i;
+    const hot = hovered === b;
+
+    ctx.fillStyle = '#000';
+    ctx.fillRect(b.x + 5, b.y + 5, b.w, b.h);
+
+    ctx.fillStyle = on ? '#2b3a67' : (hot ? '#222b4a' : '#181e36');
+    ctx.fillRect(b.x, b.y, b.w, b.h);
+
+    ctx.strokeStyle = on ? '#ffd23f' : '#ffffff';
+    ctx.lineWidth = on ? 5 : 2;
+    ctx.strokeRect(b.x + 2, b.y + 2, b.w - 4, b.h - 4);
+
+    // Live animated character preview
+    const previewPose = on
+      ? { speed: 220, air: false, phase: globalTime * 12, t: globalTime }
+      : { speed: 0, air: false, phase: 0, t: globalTime };
+    drawChar(c, b.x + b.w / 2 - (c.w * 1.6) / 2, b.y + 42, 1.6, 1, previewPose);
+
+    outlined(c.name.toUpperCase(), b.x + b.w / 2, b.y + 140, 15, on ? '#ffd23f' : '#ffffff', 4);
+    outlined(c.title.toUpperCase(), b.x + b.w / 2, b.y + 163, 9, c.accent, 3);
+
+    // Stat Bars
+    const statKeys = ['SPD', 'JMP', 'AIR'];
+    statKeys.forEach((sk, si) => {
+      const sy = b.y + 190 + si * 22;
+      outlined(sk, b.x + 36, sy, 9, '#cbd5e1', 2);
+      for (let pip = 0; pip < 5; pip++) {
+        ctx.fillStyle = pip < c.stats[sk] ? c.accent : '#0f1322';
+        ctx.fillRect(b.x + 68 + pip * 21, sy - 6, 17, 11);
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 1.5;
+        ctx.strokeRect(b.x + 68 + pip * 21, sy - 6, 17, 11);
+      }
+    });
+
+    if (c.doubleJump) {
+      outlined('2X JUMP!', b.x + b.w / 2, b.y + 260, 10, '#70e000', 3);
+    }
+  });
+
+  buttons.filter(b => !b.card).forEach(drawButton);
+}
+
+function drawLevels() {
+  drawParallaxBackground(THEMES.sunset);
+  outlined('SELECT STAGE', W / 2, 52, 28, '#ffd23f', 5);
+  outlined(`UNLOCKED: ${unlockedLevel + 1} / ${LEVELS.length}`, W / 2, 86, 12, '#ffffff', 3);
+
+  buttons.filter(b => b.levelCard).forEach(b => {
+    const idx = b.levelIdx;
+    const lv = LEVELS[idx];
+    const locked = b.disabled;
+    const hot = hovered === b;
+
+    ctx.fillStyle = '#000';
+    ctx.fillRect(b.x + 5, b.y + 5, b.w, b.h);
+
+    ctx.fillStyle = locked ? '#1c1c24' : (hot ? '#323b5e' : '#212740');
+    ctx.fillRect(b.x, b.y, b.w, b.h);
+
+    ctx.strokeStyle = locked ? '#555' : (bestTimes[idx] ? '#70e000' : '#ffd23f');
+    ctx.lineWidth = 3;
+    ctx.strokeRect(b.x + 2, b.y + 2, b.w - 4, b.h - 4);
+
+    if (locked) {
+      outlined(`STAGE ${idx + 1}`, b.x + b.w / 2, b.y + 50, 14, '#777', 3);
+      outlined('LOCKED', b.x + b.w / 2, b.y + 85, 16, '#ff4d4d', 3);
+    } else {
+      outlined(lv.name.toUpperCase(), b.x + b.w / 2, b.y + 34, 11, '#ffd23f', 3);
+      const tStr = bestTimes[idx] ? `BEST: ${bestTimes[idx].toFixed(1)}S` : 'NOT CLEARED';
+      outlined(tStr, b.x + b.w / 2, b.y + 72, 10, bestTimes[idx] ? '#70e000' : '#cbd5e1', 3);
+      const cGot = bestCoins[idx] || 0;
+      outlined(`COINS: ${cGot}/${lv.coins.length}`, b.x + b.w / 2, b.y + 104, 10, '#ffe66d', 3);
+    }
+  });
+
+  buttons.filter(b => !b.levelCard).forEach(drawButton);
+}
+
+function drawPlay() {
+  const theme = THEMES[level.theme] || THEMES.day;
+
+  ctx.save();
+  if (shakeTime > 0) {
+    const mag = shakeTime * 28;
+    ctx.translate((Math.random() - 0.5) * mag, (Math.random() - 0.5) * mag);
+  }
+
+  drawParallaxBackground(theme);
+
+  ctx.save();
+  ctx.translate(-Math.floor(camX), 0);
+
+  platforms.forEach(p => drawTerrain(p, theme, false));
+  movers.forEach(m => drawTerrain(m, theme, true));
+  spikes.forEach(drawSpikes);
+  springs.forEach(drawSpring);
+  coins.forEach(drawCoin);
+  drawGoal(goal);
+
+  // Speed Afterimages
+  for (const tr of player.trail) {
+    drawChar(player, tr.x, tr.y, 1, tr.face, { speed: Math.abs(player.vx), air: !player.onGround, phase: player.phase, t: player.t }, tr.alpha * 0.45);
+  }
+
+  // Player
+  const pose = { speed: Math.abs(player.vx), air: !player.onGround, phase: player.phase, t: player.t };
+  drawChar(player, player.x, player.y, 1, player.face, pose);
+
+  // Particles
+  for (const p of particles) {
+    ctx.fillStyle = p.color;
+    ctx.fillRect(p.x - p.size / 2, p.y - p.size / 2, p.size, p.size);
+  }
+
+  ctx.restore();
+  ctx.restore();
+
+  // Retro Arcade HUD Bar
+  ctx.fillStyle = 'rgba(11, 13, 20, 0.78)';
+  ctx.fillRect(0, 0, W, 42);
+  ctx.fillStyle = '#ffd23f';
+  ctx.fillRect(0, 40, W, 2);
+
+  outlined(level.name.toUpperCase(), 16, 22, 12, '#ffffff', 3, 'left');
+  outlined(`COINS ${coinsCollected}/${coins.length}`, W / 2 - 40, 22, 12, '#ffd23f', 3, 'center');
+  outlined(`TIME ${levelTime.toFixed(1)}S`, W - 16, 22, 12, '#70e000', 3, 'right');
+
+  // Progress bar along bottom of HUD
+  const prog = Math.max(0, Math.min(1, player.x / goal.x));
+  ctx.fillStyle = '#38b000';
+  ctx.fillRect(0, 40, W * prog, 3);
+}
+
+function drawWin() {
+  drawPlay();
+  ctx.fillStyle = 'rgba(10, 12, 22, 0.82)';
+  ctx.fillRect(0, 0, W, H);
+
+  outlined('STAGE CLEAR!', W / 2, 115, 42, '#70e000', 6);
+  outlined(level.name.toUpperCase(), W / 2, 168, 16, '#ffd23f', 4);
+
+  outlined(`TIME: ${levelTime.toFixed(2)}S`, W / 2, 225, 16, '#ffffff', 4);
+  outlined(`COINS: ${coinsCollected} / ${coins.length}`, W / 2, 262, 16, '#ffe66d', 4);
+  outlined(`RETRIES: ${deaths}`, W / 2, 298, 14, '#cbd5e1', 3);
+
+  buttons.forEach(drawButton);
+}
+
+function drawCRT() {
+  if (!crtEnabled) return;
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.14)';
+  for (let y = 0; y < H; y += 4) {
+    ctx.fillRect(0, y, W, 1.5);
+  }
+  // Subtle vignette
+  const grad = ctx.createRadialGradient(W / 2, H / 2, H * 0.45, W / 2, H / 2, W * 0.65);
+  grad.addColorStop(0, 'rgba(0,0,0,0)');
+  grad.addColorStop(1, 'rgba(0,0,0,0.35)');
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, W, H);
+}
+
+function draw() {
+  if (screen === 'menu') drawMenu();
+  else if (screen === 'select') drawSelect();
+  else if (screen === 'levels') drawLevels();
+  else if (screen === 'play') drawPlay();
+  else if (screen === 'win') drawWin();
+  drawCRT();
+}
+
+// ---- Loop (fixed timestep) ----
+let last = performance.now(), acc = 0;
+const STEP = 1 / 120;
+function frame(now) {
+  acc += Math.min(0.1, (now - last) / 1000);
+  last = now;
+  while (acc >= STEP) { update(STEP); acc -= STEP; }
+  draw();
+  requestAnimationFrame(frame);
+}
+
+document.fonts.load('16px "Press Start 2P"');
+setScreen('menu');
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
